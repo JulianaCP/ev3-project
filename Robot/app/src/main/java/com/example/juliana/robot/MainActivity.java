@@ -8,9 +8,10 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 
-
+import lejos.remote.nxt.NXTConnection;
 import lejos.hardware.Button;
 import lejos.hardware.lcd.LCD;
+import lejos.remote.nxt.BTConnector;
 import lejos.hardware.port.SensorPort;
 import lejos.hardware.sensor.DexterPressureSensor250;
 import lejos.hardware.sensor.EV3ColorSensor;
